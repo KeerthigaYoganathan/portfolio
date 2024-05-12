@@ -102,7 +102,7 @@ body{
     align-items: center;
     gap: 20%;
     width: 80%;
-    margin: 4rem auto;
+    margin: 8rem auto;
 }
 .header-data {
     width: 50%;
@@ -164,6 +164,7 @@ a.works-btn{
 @media (max-width: 576px){
     .header-content{
         flex-direction: column;
+        margin: 2rem auto;
     }
     .header-data{
         width: 100%;
@@ -195,7 +196,7 @@ a.works-btn{
 
 /* about sec */
 .about-sec{
-    margin: 2rem 0;
+    margin: 4rem 0;
     padding-top: 12px;
 }
 .about-container{
@@ -303,6 +304,9 @@ a.works-btn{
 
 /* Responsive for about sec */
 @media (max-width:576px){
+    .about-sec{
+        margin:1rem 0;
+    }
     .about-row{
         flex-direction: column;
     }
@@ -332,7 +336,7 @@ a.works-btn{
 
 /* Skills Sec */
 .skills-sec{
-    margin:5rem 0;
+    margin:8rem 0;
     padding: 12px;
 }
 .skills-container{
@@ -348,6 +352,7 @@ a.works-btn{
     color: #fff;
     font-size: 2rem;
     font-weight: 400;
+    margin-bottom: 1rem;
 }
 .skills-title p{
     font-size: 1.6rem;
@@ -355,6 +360,7 @@ a.works-btn{
     color:#00C0FF;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 1rem;
 }
 .skills-row{
     display: flex;
@@ -364,7 +370,7 @@ a.works-btn{
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 .skills-heading{
     color: #fff;
@@ -448,6 +454,9 @@ a.works-btn{
 
 /* responsive */
 @media (max-width:576px) {
+    .skills-sec{
+        margin:2rem 0;
+    }
     .skills-title h1{
         font-size: 1.5rem;
     }
@@ -540,6 +549,9 @@ a.works-btn{
 
 /* qualification responsive */
 @media (max-width:576px){
+    .qualification-sec{
+        margin: 3rem 0;
+    }
     .qualification-title h2{
         font-size: 1.5rem;
     }
@@ -556,7 +568,7 @@ a.works-btn{
 
 /* Project Section */
 .projects-sec{
-    margin: 5rem 0;
+    margin: 4rem 0;
     padding: 12px;
 }
 .project-box{    
@@ -597,6 +609,7 @@ a.works-btn{
     gap: 10%;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 .git-code-project{
     background-color: #00C0FF;
@@ -634,7 +647,7 @@ a.works-btn{
 /* Contact Section */
 .contact-sec{
     padding-top: 1rem;
-    
+   
 }
 .contact-container{
     margin: 0 auto;
