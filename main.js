@@ -7,3 +7,20 @@ mobileNavToggleBtn.addEventListener("click", function(){
     mobileNavToggleBtn.children[0].classList.toggle("bi-x-circle");
     mobileNavToggleBtn.children[0].classList.toggle("bi-list");
 })
+
+const navMenuBtn = document.getElementsByClassName("mobile-nav-bar")[0].children;
+console.log(navMenuBtn);
+// navMenuBtn.forEach(
+//     function(a){
+//         console.log(a);
+//     }
+// )
+for(let i=0; i<navMenuBtn?.length; i++){
+    navMenuBtn[i].addEventListener("click", function(){
+        console.log(navMenuBtn[i]);
+        document.getElementsByClassName("mobile-nav-bar")[0]?.classList.toggle("mobile-nav-bar-active");
+        mobileNavToggleBtn.children[0].classList.toggle("bi-x-circle");
+        mobileNavToggleBtn.children[0].classList.toggle("bi-list");
+    })
+}
+
