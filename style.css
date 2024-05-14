@@ -16,7 +16,7 @@ body {
   position: fixed;
   height: 100vh;
   width: 100%;
-  background: #e5eff1 url(../images/preloader.gif) no-repeat center center;
+  background: #e5eff1 url(./images/preloader.gif) no-repeat center center;
   z-index: 1000;
   background-size: 20%;
 }
